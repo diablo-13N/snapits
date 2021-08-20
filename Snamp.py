@@ -1,5 +1,5 @@
 import zlib
-text = b"Python Pool!" * 100
+text = b"string compress" * 100
 compressed = zlib.compress(text)
  
 print("size of original: " + str(len(text)))
